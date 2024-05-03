@@ -1,8 +1,7 @@
 import { describe, it } from 'node:test'
 import { equal } from 'node:assert/strict'
 
-
-import fs from 'node:fs/promises';
+import fs from 'node:fs/promises'; //para que no tenga e poner el .promise
 
 export async function leerArchivos() {
   // Con esto leemos todos los archivos al mismo tiempo y si hay algun error en alguna promesa el resto se ejecutaria igual.
